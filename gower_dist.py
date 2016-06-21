@@ -6,8 +6,8 @@ from sklearn.neighbors import DistanceMetric
 def gower_distance(X):
     """
     This function expects a pandas dataframe as input
-    The data frame is to contain the meta-features of customers. Based on these meta-features a
-    distance matrix will be returned which will contain the pairwise gower distance between the customers
+    The data frame is to contain the features along the columns. Based on these features a
+    distance matrix will be returned which will contain the pairwise gower distance between the rows
     All variables of object type will be treated as nominal variables and the others will be treated as 
     numeric variables.
 
